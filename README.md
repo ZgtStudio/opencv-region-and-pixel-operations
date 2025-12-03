@@ -57,7 +57,7 @@ This example highlights a region of interest by drawing a rectangle around it.
 
 **Script:**
 
-- `rectangle_roi_highligth.py`
+- `rectangle_roi_highlight.py`
   - reads `duck.jpg`,
   - draws a rectangle around a selected region,
   - displays the result.
@@ -80,5 +80,5 @@ opencv-region-and-pixel-operations/
 │  └─ Mirror_Repeat_Border.py
 ├─ OpenCV Rectangle Roi Highlights/
 │  ├─ duck.jpg
-│  └─ rectangle_roi_highligth.py
+│  └─ rectangle_roi_highlight.py
 └─ README.md
