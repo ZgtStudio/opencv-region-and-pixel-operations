@@ -10,14 +10,14 @@ cropping, copying, tinting, drawing rectangles and creating borders.
 
 ### 1.1 ROI Crop, Copy and Tint
 
-Folder: `01_roi_crop_copy_tint/`
+Folder: `OpenCV Taking a Section from a Picture and Applying Effects/`
 
 This example selects a rectangular region of interest (ROI) from the image,  
 copies it to another location and then tints the original ROI with a solid color.
 
 **Script:**
 
-- `roi_crop_copy_tint.py`
+- `Taking_Section.py`
   - reads `deer.jpg`,
   - selects a ROI using array slicing,
   - copies the ROI to a new position in the same image,
@@ -31,14 +31,14 @@ copies it to another location and then tints the original ROI with a solid color
 
 ### 1.2 Border Types (Reflect, Replicate, Wrap, Constant)
 
-Folder: `02_border_types/`
+Folder: `OpenCV Image Mirror Repeat Border/`
 
 This example creates different types of borders around the image using  
 `cv2.copyMakeBorder`.
 
 **Script:**
 
-- `border_types.py`
+- `Mirror_Repeat_Border.py`
   - reads `giraffe.jpg`,
   - creates reflected, replicated, wrapped and constant-color borders,
   - displays each result in a separate window.
@@ -51,13 +51,13 @@ This example creates different types of borders around the image using
 
 ### 1.3 Highlight ROI with a Rectangle
 
-Folder: `03_rectangle_roi_highlight/`
+Folder: `OpenCV Rectangle Roi Highlights/`
 
 This example highlights a region of interest by drawing a rectangle around it.
 
 **Script:**
 
-- `rectangle_roi_highlight.py`
+- `rectangle_roi_highligth.py`
   - reads `duck.jpg`,
   - draws a rectangle around a selected region,
   - displays the result.
@@ -72,13 +72,13 @@ This example highlights a region of interest by drawing a rectangle around it.
 
 ```text
 opencv-region-and-pixel-operations/
-├─ 01_roi_crop_copy_tint/
+├─ OpenCV Taking a Section from a Picture and Applying Effects/
 │  ├─ deer.jpg
-│  └─ roi_crop_copy_tint.py
-├─ 02_border_types/
+│  └─ Taking_Section.py
+├─ OpenCV Image Mirror Repeat Border/
 │  ├─ giraffe.jpg
-│  └─ border_types.py
-├─ 03_rectangle_roi_highlight/
+│  └─ Mirror_Repeat_Border.py
+├─ OpenCV Rectangle Roi Highlights/
 │  ├─ duck.jpg
-│  └─ rectangle_roi_highlight.py
+│  └─ rectangle_roi_highligth.py
 └─ README.md
